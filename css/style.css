@@ -1,0 +1,438 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    box-shadow: 0px 2px 10px 0px gray;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+header nav{
+display: flex;
+gap: 100px;
+align-items: center;
+}
+/* #nav-menu li a{
+font-size: 100px;
+} */
+
+/* header nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+
+} */
+header nav button{
+    background-color: #112f61;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 0px #223e6e;
+}
+#banner{
+    width: 100%;
+
+}
+#banner img{
+    width: 100%;
+}
+.categorySection{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #f0f0f5;
+   /* text-align: center; */
+}
+.categorySection h2{
+ font-size: 40px;
+ color: #223e6e;
+text-align: center;
+margin-bottom: 20px;
+
+}
+.categoryMid{
+    max-width: 1320px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.categoryMid figure{
+  flex-basis: 33.3%;
+  height: 450px;
+  display: flex;
+
+    
+}
+/* .categoryMid figure img{
+    width: 100%;
+   
+    
+} */
+.categoryMidItem1{
+    background: url("../img/HVAC-Products.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.categoryMidItem2{
+    background: url("../img/Illumination-Light-sources_.png");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      justify-content: center;
+    align-items: center;
+    color: #fff;
+     text-transform: uppercase;
+}
+.categoryMidItem3{
+    background: url("../img/Led-Fixtures.png");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      justify-content: center;
+    align-items: center;
+    color: #fff;
+     text-transform: uppercase;
+}
+.categoryMidItem4{
+    background: url("../img/Ventilation-Products.png");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      justify-content: center;
+    align-items: center;
+    color: #fff;
+     text-transform: uppercase;
+}
+.categoryMidItem5{
+    background: url("../img/Wires.png");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      justify-content: center;
+    align-items: center;
+    color: #fff;
+     text-transform: uppercase;
+}
+.categoryMidItem6{
+    background: url("../img/Wiring-Accessories_.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      justify-content: center;
+    align-items: center;
+    color: #fff;
+     text-transform: uppercase;
+}
+
+.aboutmainsection{
+    width: 100%;
+    background-color: #f0f0f5;
+    padding: 50px 0px;
+   
+}
+.aboutmid{
+    max-width: 1320px;
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0px auto;
+    gap: 40px;
+    align-items: center;
+
+}
+.abouleftimg{
+   flex-basis: 50%;
+}
+.abouleftimg img{
+   width: 100%;
+}
+.aboutcontent{
+  flex-basis: 50%;
+}
+
+.aboutcontent h2{
+  font-size: 40px;
+  color: #112f61;
+  margin-bottom: 10px;
+}
+.aboutcontent p{
+  font-size: 17px;
+ line-height: 25px;
+ text-align: justify;
+}
+
+.aboutcontent button{
+  font-size: 17px;
+padding: 15px 25px;
+border-radius: 20px;
+background-color: #d6d6d6;
+border: none;
+margin-top: 20px;
+}
+
+.dealsection{
+    width: 100%;
+    background: url("../img/wall-fan-Promotional-Offer-Banner-Desktop-version-without-text.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 0px;
+
+}
+.dealsectionmid{
+   max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contentDeal{
+    width: 60%;
+    
+}
+
+.contentDeal h4{
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 30px;
+    
+}
+.contentDeal h2{
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.contentDeal p{
+  color: white;
+  font-size: 18px;
+  text-transform: none;
+  line-height: 30px;
+  padding-right: 140px;
+}
+
+.contentDeal button{
+  color:#feffff;
+  background:#123062;
+  font-size: 18px;
+  border: 2px solid white ;
+  text-transform: none;
+ border-radius: 20px;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+.testimonialsection{
+    background-color: #ffffff;
+    padding: 50px 0px;
+
+}
+.testimonialMid{
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+   
+}
+.testimonialsection h2{
+   color:#123062;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.testimonialcard{
+    border: 1px solid rgb(226, 226, 226);
+    padding: 20px;
+    text-align: center;
+
+}
+.testimonialcard p{
+   font-size: 17px;
+   padding-bottom:20px ;
+   line-height: 20px;
+   color: rgb(68, 68, 68);
+}
+.testimonialcard h3{
+   font-size: 20px;
+   padding-bottom:20px ;
+   color: #123062;
+}
+.testimonialcard i{
+   font-size: 20px;
+   padding-bottom:20px ;
+   color:yellow;
+}
+
+.blogsection{
+    padding: 50px 0px;
+    text-align: center;
+    
+}
+.blogsection h2{
+     font-size: 30px;
+   padding-bottom:20px ;
+   color: #123062;
+    
+}
+.blogsection h3{
+     font-size: 18px;
+   padding-bottom:10px ;
+   color: #42ab3a;
+    
+}
+.blogmid{
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    margin: auto;
+
+
+
+}
+.blogcard{
+    flex-basis: 25%;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 1px #9c9a9a;
+     padding-bottom: 30px;
+  
+}
+.blogcard img{
+   width: 100%;
+   
+    
+}
+.blogcard h4{
+  font-size: 18px;
+  margin: 15px 10px;
+  color: #112f61;
+ 
+    
+}
+.blogcard p{
+  font-size: 16px;
+  margin: 15px 15px;
+  line-height: 25px;
+    
+}
+footer{
+  width: 100%;
+  background-color: #f0f0f5;
+  padding: 50px 0px;
+}
+.footermid{
+  display: flex;
+  margin: auto;
+ gap: 30px;
+  max-width: 1320px;
+
+}
+.footersec1{
+  flex-basis: 25%;
+
+}
+.footersec1 img{
+  background-color: #fff;
+  
+}
+.footersec1 p{
+  font-size: 19px;
+  margin: 15px 0px;
+}
+.footersec1 h5{
+  font-size: 20px;
+  margin: 15px 0px;
+  color: #112f61;
+}
+
+.footersec1 i{
+  font-size: 20px;
+  margin: 5px;
+  color: #42ab3a;
+}
+.footersec2{
+  padding-right: 20px ;
+   flex-basis: 25%;
+}
+
+.footersec2 h5{
+  font-size: 20px;
+  margin: 15px 0px;
+  color: #112f61;
+}
+.footersec2 p{
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.footersec2 h6{
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.footersec3 h5{
+  font-size: 20px;
+  margin: 15px 0px;
+  color: #112f61;
+}
+.footersec3 p{
+  font-size: 15px;
+  margin: 15px 0px;
+   flex-basis: 25%;
+}
+.footersec3 h6{
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.footersec3 ul li{
+  
+  margin: 10px 0px;
+}
+.footersec4{
+  flex-basis: 30%;
+}
+.footersec4 h5{
+  font-size: 20px;
+  margin: 15px 0px;
+  color: #112f61;
+}
+.footersec4 form input{
+  width: 100%;
+  margin: 10px 0px;
+  padding:12px 10px;
+  border: none;
+}
+
+.footersec4 form button{
+    padding: 1px 40px;
+    background-color: #42ac3a;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+   color: #fff;
+    font-weight: 600;
+    border-radius: 40px;
+    font-size: 13px;
+    margin-top: 10px;
+}
